@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #293B7B;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.header {
+  background-color: #293B7B;
+  height: 75px;
+}
+
+.header p {
+  color: #FFF;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+/* ALL ARTICLES and SINGLE ARTICLE */
+
+.allContainer {
+  padding: 50px 0px;
+}
+
+.generaltitle {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.allArticles {
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 18rem;
+}
+
+.readmore {
+  background-color: blue;
+  color: #FFF;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.category {
+  background-color: #293B7B;
+  color: #FFF;
+  border: 2px solid #293B7B;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.picture {
+  max-height: 400px;
+  max-width: 70%;
+}
+
+.body {
+  font-size: 15px;
+}
+
+/* DASHBOARD */
+
+.navhover:hover {
+  text-decoration: underline;
+  font-size: larger;
+}
+
+.add-article {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -30px;
+}
+
+.h-input {
+  border-radius: 3px;
+  border: 2px solid #293B7B;
+  width: 450px;
+}
+
+form label {
+  margin-right: 20px;
+}
+
+.input-body {
+  resize: none;
+}
+
+.add-article-btn,
+.delete-article {
+  margin: 25px 0px;
+  background-color: #3463FC;
+  color: #FFF;
+  border-radius: 10px;
+  border: 1px solid #3463FC;
+  font-weight: 700;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.add-article-btn:hover,
+.delete-article:hover {
+  background-color: #FFF;
+  color: #3463FC;
+}
+
+.start-edit{
+  margin: 25px 0px;
+  background-color: #293B7B;
+  color: #FFF;
+  border-radius: 10px;
+  border: 1px solid #293B7B;
+  font-weight: 700;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.start-edit:hover{
+  background-color: #FFF;
+  color: #293B7B;
+}
