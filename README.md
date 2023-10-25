@@ -1,55 +1,70 @@
-# Frontend Assessment for Article Application
+# Getting Started with Create React App
 
-## Starting the Project
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. **Clone Repository**: Begin by cloning this repository to your local machine.
-2. **Create a New Branch**: Create a new branch with the name `firstname-lastname` to work on your project.
-3. **React Project**: Create a new React project.
+## Available Scripts
 
-## Instructions
+In the project directory, you can run:
 
-Design a web application using **FIGMA** and build it with React and CSS. This application should allow admins to create, modify, delete articles, and normal users to display all the created articles. The interface should be user-friendly.
+### `npm start`
 
-## Requirements
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. **Three Pages**:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-   - A page to display all the created articles.
-   - A page for adding, updating, or deleting articles(Dashboard).
-   - A page to show specific article (by ID).
+### `npm test`
 
-2. **All Article Display Page**:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-   - List all created articles.
-   - Each card should have view more button to redirect the the One Article Page.
+### `npm run build`
 
-3. **One Article Display Page**:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-   - Show all informations of only one article.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-4. **Article Dashboard Page**:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   - Divide the page into section to add, update, delete articles.
-   - Note that your dashboard will not be secured(no need to login/register) so any one can go to the dashboard do whatever he/she needs and return back to the main page.
+### `npm run eject`
 
-5. **Responsiveness**:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   - Ensure the application works on mobile devices.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Bonus
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. **Search Feature**:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-   - Implement a article search functionality by title.
+## Learn More
 
-2. **Sorting Feature**:
-   - Allow users to sort memes by date created or alphabetically by title.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Submission
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- After implementing the project, stage your changes, commit them, and push to your branch.
-- To submit the figma file, create a text file name it FIGMA and add the link for you Figma file(Make sure to access anyone with the link).
+### Code Splitting
 
-## Notes
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- You are free to use any image hosting service for storing article images.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
