@@ -29,7 +29,7 @@ const UpdateArticle = () => {
 
     try {
       // Send a PUT request to update the article
-      const response = await axios.put("http://localhost:5000/article/update/" + id, articleData);
+      const response = await axios.put(`http://localhost:5000/article/update/${id}`, articleData);
 
       if (response.status === 200) {
         console.log("Article updated successfully");
