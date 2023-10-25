@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+.navbar {
+  background-color: rgb(255,240,235);
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px;
+  position:relative;
+  top: 50%;
+  padding-right: 5%;
+}
+
+.Articles{
+  flex: 1;
+  
+}
+
+
+.titles {
+  color:rgb(209,166,152); 
+  margin: 0; 
+  float: left;
+  font-size: 32px;
+}
+.mainpage{
+  display: flex;
+  flex-direction: row;
+background-color:rgb(209,166,152) ;
+height: fit-content;
+flex-wrap: wrap; /* Allow items to wrap to the next row */
+justify-content: space-evenly;
+;
+
+}
+.card {
+    border-radius: 30px;
+    background-color: rgb(255, 240, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 28%; /* Set the width to 30% */
+    height: fit-content;
+    margin-top: 3%;
+margin-bottom: 3%;  }
+  
+.imgcontainer{
+  flex: 1;
+}
+.image{
+  width:330px;
+  height: 170px;
+  margin-top: 8%;
+}
+.Articletitle{
+    color:rgb(209,166,152); 
+   
+    font-size: 32px;
+}
+
+.view-more{
+    color: white;
+    background-color:rgb(209,166,152) ;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 5%;
+}
+
+.view-more:hover{
+    background-color: rgb(169, 106, 92);
+    transform: scale(1.05);
+}
+.view-more:active {
+    transform: scale(0.95); /* Scale the button slightly when clicked for a clickable effect */
+    box-shadow: none; /* Remove shadow when button is clicked */
+}
+
+.bar{
+    flex:1;
+    justify-content:end;
+    text-decoration: none;
+    color:rgb(209,166,152);
+    align-items: end;
+    font-size: 16px;
+
+
+}
+a{
+    text-decoration: none;
+    color:rgb(209,166,152);
+    align-items: end;
+    font-size: 16px;
+}
+
+.mainpage2{
+   background-color:rgb(209,166,152) ;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.div1{
+    width:80%;
+    height:fit-content;
+    background-color: rgb(255, 240, 235);
+    flex: 1;
+    margin-top: 10%;
+margin-bottom: 10%;
+border-radius: 80px 80px;
+}
+.imgscont{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.pic1{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;}
+.pic2{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img1{
+    width:500px;
+    height:300px;
+    border-radius: 30px 30px;
+}
+.img2{
+    width:500px;
+    height:300px;
+    border-radius: 30px 30px;
+
+}
+.Articles1{
+    font-size: 36px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pic1,.pic2{
+    margin: 1%;
+}
+@media screen and (max-width: 600px) {
+
+    .mainpage{
+        display: flex;
+        flex-direction: column;
+      background-color:rgb(209,166,152) ;
+      height: fit-content;
+      flex-wrap: wrap; /* Allow items to wrap to the next row */
+      justify-content: center;
+      text-align: center;
+      align-items: center
+      ;
+    }
+    .navbar {
+        background-color: rgb(255,240,235);
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 10px;
+        position:relative;
+        top: 50%;
+        padding-right: 5%;
+      }
+      
+      .Articles{
+        flex: 1;
+        
+      }
+      
+      
+      .titles {
+        color:rgb(209,166,152); 
+        margin: 0; 
+        float: left;
+        font-size: 24px;
+      }
+     
+      .card {
+          border-radius: 30px;
+          background-color: rgb(255, 240, 235);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          width: 80%; /* Set the width to 30% */
+          height: fit-content;
+          margin-top: 3%;
+      margin-bottom: 3%;  }
+        
+      .imgcontainer{
+        flex: 1;
+      }
+      .image{
+        width:230px;
+        height: 170px;
+        margin-top: 8%;
+      }
+      .Articletitle{
+          color:rgb(209,166,152); 
+         
+          font-size: 32px;
+      }
+      
+      .view-more{
+          color: white;
+          background-color:rgb(209,166,152) ;
+          border-radius: 10px;
+          width: 140px;
+          height: 40px;
+          font-size: 16px;
+          border: none;
+          margin-bottom: 5%;
+      }
+      
+      .view-more:hover{
+          background-color: rgb(169, 106, 92);
+          transform: scale(1.05);
+      }
+      .view-more:active {
+          transform: scale(0.95); /* Scale the button slightly when clicked for a clickable effect */
+          box-shadow: none; /* Remove shadow when button is clicked */
+      }
+      
+      .bar{
+          flex:1;
+          justify-content:end;
+          text-decoration: none;
+          color:rgb(209,166,152);
+          align-items: end;
+          font-size: 16px;
+      
+      
+      }
+      a{
+          text-decoration: none;
+          color:rgb(209,166,152);
+          align-items: end;
+          font-size: 16px;
+      }
+      
+      .mainpage2{
+         background-color:rgb(209,166,152) ;
+          height: 100%;
+          width: 100%;
+          margin: 0px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          
+      }
+      .div1{
+          width:80%;
+          height:fit-content;
+          background-color: rgb(255, 240, 235);
+          flex: 1;
+          margin-top: 10%;
+      margin-bottom: 10%;
+      border-radius: 80px 80px;
+      }
+      .imgscont{
+          display: flex;
+          flex-direction:column;
+          
+          
+      }
+      .pic1{
+          flex: 1;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;}
+      .pic2{
+          flex: 1;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+      .img1{
+          width:250px;
+          height:300px;
+          border-radius: 30px 30px;
+      }
+      .img2{
+          width:250px;
+          height:300px;
+          border-radius: 30px 30px;
+      
+      }
+      .Articles1{
+          font-size: 36px;
+      
+      }
+      .container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+      .pic1,.pic2{
+          margin: 1%;
+      }
+      }

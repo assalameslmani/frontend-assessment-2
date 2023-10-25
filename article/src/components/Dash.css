@@ -1,0 +1,22 @@
+.Article-form{
+    flex: 1;
+    border-radius: 80px 80px;
+    background-color:rgb(209,166,152) ;
+  
+
+
+}
+.text {
+}
+.inputstyle {
+    border-radius: 80px 80px;
+    width: 250px;
+}
+.addmain{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}

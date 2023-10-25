@@ -1,0 +1,11 @@
+{
+  "name": "frontend-assessment-2",
+  "version": "1.0.0",
+  "description": "1. **Clone Repository**: Begin by cloning this repository to your local machine.\r 2. **Create a New Branch**: Create a new branch with the name `firstname-lastname` to work on your project.\r 3. **React Project**: Create a new React project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
